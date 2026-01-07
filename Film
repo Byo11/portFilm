@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Internship Application Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-50 transition-colors duration-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Navigation -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md">
+<div class="px-4 md:px-10 py-3 flex items-center justify-between max-w-7xl mx-auto w-full">
+<div class="flex items-center gap-2">
+<h2 class="text-slate-900 dark:text-white text-lg font-bold tracking-tight">WELCOME TO MY PROFILE</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-slate-600 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#hero">Home</a>
+<a class="text-slate-600 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#projects">Projects</a>
+<a class="text-slate-600 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#skills">Skills</a>
+</nav>
+<a class="flex items-center justify-center overflow-hidden rounded-lg h-9 px-4 bg-primary hover:bg-blue-600 transition-colors text-white text-sm font-bold shadow-sm ring-1 ring-inset ring-blue-500/10" href="#contact">
+<span class="truncate">Contact Me</span>
+</a>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex-1 w-full max-w-7xl mx-auto flex flex-col px-4 md:px-10 py-8 gap-12 md:gap-20">
+<!-- Hero Section -->
+<section class="w-full pt-10 pb-6" id="hero">
+<div class="flex flex-col-reverse md:flex-row gap-10 items-center justify-between">
+<div class="flex flex-col gap-6 md:w-1/2 items-start">
+<div class="flex flex-col gap-3">
+<h1 class="text-slate-900 dark:text-white text-4xl md:text-6xl font-black leading-[1.1] tracking-tight">
+                                JIRAPAT THANYAHARN
+                            </h1>
+<p class="text-slate-600 dark:text-slate-400 text-lg md:text-xl font-normal leading-relaxed max-w-lg">
+                                สวัสดีครับ ผมชื่อจิรภัทร ธัญญาหาร ชื่อเล่นฟิลม์ ตอนนี้ผมเป็นนักศึกษาและอยากหาโอกาสในการพัฒนาอาชีพของผมเองในอนาคต ผมคิดว่าจะนำเอาความรู้ที่ได้จากการเรียนไปใช้ในการประกอบอาชีพ ผมไม่ได้เป็นเด็กวิทย์ ผมชื่นชอบกีฬาชอบในการเตะฟุตบอล ไอดอลของผมคือ Lionel Messi
+
+
+</div>
+</div>
+<div class="w-full md:w-[45%] flex justify-center md:justify-end relative">
+<div class="relative w-full aspect-square max-w-[400px] rounded-2xl overflow-hidden shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500 group">
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent z-10"></div>
+<div class="w-full h-full bg-cover bg-center" data-alt="Professional headshot of a young designer in a studio setting" style='background-image: url("./profile.png");'></div>
+</div>
+<!-- Decorative element -->
+<div class="absolute -bottom-6 -left-6 -z-10">
+<svg class="text-primary/10 fill-current" fill="none" height="120" viewbox="0 0 100 100" width="120" xmlns="http://www.w3.org/2000/svg">
+<pattern height="20" id="dots" patternunits="userSpaceOnUse" width="20" x="0" y="0">
+<circle cx="2" cy="2" r="2"></circle>
+</pattern>
+<rect fill="url(#dots)" height="100" width="100"></rect>
+</svg>
+</div>
+</div>
+</div>
+</section>
+<!-- Skills Section -->
+<section class="w-full" id="skills">
+<div class="flex flex-col gap-6">
+<h2 class="text-slate-900 dark:text-white text-2xl font-bold tracking-tight">Skills</h2>
+<div class="flex flex-wrap gap-3">
+<!-- Skill Chips -->
+<div class="group flex h-10 items-center justify-center gap-x-2 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 px-4 hover:border-primary hover:bg-blue-50 dark:hover:bg-slate-700/80 transition-all cursor-default">
+
+<span class="text-slate-700 dark:text-slate-300 text-sm font-medium">HTML</span>
+</div>
+<div class="group flex h-10 items-center justify-center gap-x-2 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 px-4 hover:border-primary hover:bg-blue-50 dark:hover:bg-slate-700/80 transition-all cursor-default">
+
+<span class="text-slate-700 dark:text-slate-300 text-sm font-medium">Database</span>
+</div>
+<div class="group flex h-10 items-center justify-center gap-x-2 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 px-4 hover:border-primary hover:bg-blue-50 dark:hover:bg-slate-700/80 transition-all cursor-default">
+
+<span class="text-slate-700 dark:text-slate-300 text-sm font-medium">Power BI</span>
+</div>
+<div class="group flex h-10 items-center justify-center gap-x-2 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 px-4 hover:border-primary hover:bg-blue-50 dark:hover:bg-slate-700/80 transition-all cursor-default">
+
+<span class="text-slate-700 dark:text-slate-300 text-sm font-medium">Manual Testing</span>
+</div>
+<div class="group flex h-10 items-center justify-center gap-x-2 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 px-4 hover:border-primary hover:bg-blue-50 dark:hover:bg-slate-700/80 transition-all cursor-default">
+<span class="text-slate-700 dark:text-slate-300 text-sm font-medium">Git/GitHub</span>
+</div>
+
+<div class="group flex h-10 items-center justify-center gap-x-2 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 px-4 hover:border-primary hover:bg-blue-50 dark:hover:bg-slate-700/80 transition-all cursor-default">
+<span class="text-slate-700 dark:text-slate-300 text-sm font-medium">Bug Reporting and Documentation</span>
+</div>
+<div 
+
+</div>
+</div>
+</div>
+</section>
+<section class="w-full" id="projects">
+  <div class="flex flex-col gap-12">
+
+    <h2 class="text-2xl font-bold text-slate-900 dark:text-white">
+      My Work
+    </h2>
+
+    <!-- ===== Row 1 : Project 1 2 3 ===== -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Project 1 -->
+      <div class="group flex flex-col gap-4">
+        <div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-slate-200">
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition"></div>
+          <div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition"
+               style="background-image: url('ecommerce.png');"></div>
+        </div>
+        <div>
+          <h3 class="font-bold text-lg">การแข่งขัน BDI Hackathon: AI & Data Innovation for Smart Tourism</h3>
+          <p class="text-sm text-slate-600">ในปี 2025 พวกผมได้ทำน้องม่วนใจ๋ อวาตาร์ AI ท่องเที่ยวเชียงใหม่เสมือนจริง เป็นนวัตกรรม Smart Tourism พัฒนาอวาตาร์ AI ชื่อน้องม่วนใจ๋ เพื่อแก้ปัญหาด้านข้อจำกัดการเดินทางและข้อมูลการท่องเที่ยว
+</p>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="group flex flex-col gap-4">
+        <div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-slate-200">
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition"></div>
+          <div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition"
+               style="background-image: url('nsc.png');"></div>
+        </div>
+        <div>
+          <h3 class="font-bold text-lg">National Software Contest (NSC) 2025 Participant</h3>
+          <p class="text-sm text-slate-600">ผมได้เข้าร่วมการแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทย โดยผมทำระบบตรวจจับนักเรียนที่กำลังเรียนออนไลน์ว่าตั้งใจเรียนหรือไม่โดยใช้ระบบตรวจจับพฤติกรรม
+</p>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="group flex flex-col gap-4">
+        <div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-slate-200">
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition"></div>
+          <div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition"
+               style="background-image: url('module.png');"></div>
+        </div>
+        <div>
+          <h3 class="font-bold text-lg">Module in Informatics</h3>
+          <p class="text-sm text-slate-600">เป็นกิจกรรมออกแบบและพัฒนาระบบของตนเอง ซึ่งพวกผมทำเป็นระบบตรวจจับพฤติกรรมของนักเรียน แข่งในสาขาและได้รับรางวันที่ 1 ของสาขา AAI
+</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ===== Row 2 : Project 4 5 ===== -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Project 4 -->
+      <div class="group flex flex-col gap-4">
+        <div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-slate-200">
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition"></div>
+          <div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition"
+               style="background-image: url('openhouse.png');"></div>
+        </div>
+        <div>
+          <h3 class="font-bold text-lg">Openhouse Burapha Informatics 2025</h3>
+          <p class="text-sm text-slate-600">เป็นตัวแทนของสาขา AAI ที่นำเสนอผลงานให้กับผู็ที่มารับชมได้รับชมกันเป็นระบบตรวจจับพฤติกรรมแบบเรียลไทม์</p>
+        </div>
+      </div>
+
+      <div class="group flex flex-col gap-4">
+        <div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-slate-200">
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition"></div>
+          <div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition"
+               style="background-image: url('popo.png');"></div>
+        </div>
+        <div>
+          <h3 class="font-bold text-lg">Certificate of Front-End Web Development</h3>
+          <p class="text-sm text-slate-600">การฝึกอบรมเข้มข้นด้าน Front-End Web Development ณ มหาวิทยาลัยบูรพา โดยได้พัฒนาทักษะการสร้างโครงสร้างเว็บ (HTML), การตกแต่งความสวยงาม (CSS)</p>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</section>
+
+</section>
+</main>
+<!-- Footer / Contact -->
+<footer class="w-full bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 mt-20" id="contact">
+<div class="max-w-7xl mx-auto px-4 md:px-10 py-16">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
+<div class="flex flex-col gap-4 max-w-md">
+<h2 class="text-slate-900 dark:text-white text-3xl font-bold tracking-tight">Contact</h2>
+<p class="text-slate-600 dark:text-slate-400 text-base leading-relaxed">
+                            สามารถติดต่อได้นะครับ
+                        </p>
+<div class="flex flex-col sm:flex-row gap-4 mt-2">
+<a class="flex items-center gap-3 text-slate-700 dark:text-slate-300 hover:text-primary transition-colors group" href="mailto:alex.design@example.com">
+<div class="size-10 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-center group-hover:border-primary group-hover:scale-110 transition-all">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</div>
+<span class="font-medium">film11871@gmail.com</span>
+</a>
+</div>
+<div class="flex items-center gap-4 mt-4">
+  <div class="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200">
+    <span class="material-symbols-outlined text-slate-700">call</span>
+  </div>
+  <span class="text-slate-700">094-661-3871</span>
+</div>
+<div class="flex items-center gap-4 mt-4">
+  <div class="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200">
+    <!-- Instagram SVG -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-slate-700" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M7.75 2h8.5C19.44 2 22 4.56 22 7.75v8.5C22 19.44 19.44 22 16.25 22h-8.5C4.56 22 2 19.44 2 16.25v-8.5C2 4.56 4.56 2 7.75 2zm0 1.5C5.4 3.5 3.5 5.4 3.5 7.75v8.5c0 2.35 1.9 4.25 4.25 4.25h8.5c2.35 0 4.25-1.9 4.25-4.25v-8.5c0-2.35-1.9-4.25-4.25-4.25h-8.5z"/>
+      <path d="M12 7a5 5 0 100 10 5 5 0 000-10zm0 1.5a3.5 3.5 0 110 7 3.5 3.5 0 010-7z"/>
+      <circle cx="17.5" cy="6.5" r="1"/>
+    </svg>
+  </div>
+
+  <a
+    href="https://www.instagram.com/_.filmjsp/"
+    target="_blank"
+    class="text-slate-700 hover:text-primary transition"
+  >
+    Instagram
+  </a>
+</div>
+<div class="flex items-center gap-4 mt-4">
+  <div class="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200">
+    <!-- Facebook SVG -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="h-5 w-5 facebook-icon"
+         viewBox="0 0 24 24"
+         fill="currentColor">
+      <path d="M22 12.07C22 6.486 17.523 2 12 2S2 6.486 2 12.07c0 4.991 3.657 9.128 8.438 9.878v-6.99H7.898v-2.888h2.54V9.797c0-2.507 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.463h-1.26c-1.243 0-1.63.776-1.63 1.572v1.887h2.773l-.443 2.888h-2.33v6.99C18.343 21.198 22 17.06 22 12.07z"/>
+    </svg>
+  </div>
+
+  <a
+    href="https://www.facebook.com/USERNAME"
+    target="_blank"
+    class="text-slate-700 hover:text-primary transition"
+  >
+    Facebook
+  </a>
+</div>
+
+</div>
+<div class="flex flex-col gap-6 w-full md:w-auto">
+<div class="flex gap-4">
+
+</div>
+</div>
+</div>
+<div class="mt-16 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-slate-500 text-sm"></p>
+<div class="flex gap-6">
+<a class="text-slate-500 hover:text-slate-900 dark:hover:text-white text-sm" href="#"></a>
+<a class="text-slate-500 hover:text-slate-900 dark:hover:text-white text-sm" href="#"></a>
+<a class="text-slate-500 hover:text-slate-900 dark:hover:text-white text-sm" href="#"></a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
